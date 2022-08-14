@@ -1,0 +1,24 @@
+<html>
+    <body bgcolor=#9FE2BF>
+
+        <center>
+
+        <h1> Heart Disease Detection </h1><br>
+ <h4> Import values for the selected features . </h2><br>
+        
+
+        <form method="POST", action="{{url_for('home')}}">
+           <b> cp :  <input type="text", name='a', placeholder="enter 1"> <br><br>
+            ca :  <input type="text", name='b', placeholder="enter 2"> <br><br>
+            exang :  <input type="text", name='c', placeholder="enter 3"> <br><br>
+            thal : <input type="text", name='d', placeholder="enter 4"> <br><br>
+            oldpeak : <input type="text", name='e', placeholder="enter 5"> <br><br><br></b>
+
+            <input type="submit" , value='predict!' >
+        </form>
+
+      
+    </center>
+
+    </body>
+</html>
